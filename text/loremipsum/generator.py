@@ -79,6 +79,7 @@ class DictionaryError(Exception):
     """
     The dictionary must be a list of one or more words.
     """
+
     def __str__(self):
         return self.__doc__
 
@@ -89,6 +90,7 @@ class SampleError(Exception):
     and each paragraph must contain one or more period, question mark, or
     exclamation mark delimited sentences.
     """
+
     def __str__(self):
         return self.__doc__
 
